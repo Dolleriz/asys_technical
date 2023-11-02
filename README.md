@@ -1,3 +1,5 @@
 # Readme for ASYS technical assignment - MDC
 
-## Building
+## Build/Run
+
+`docker-compose up -d`

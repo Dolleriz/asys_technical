@@ -1,3 +1,7 @@
 services:
   asys-technical-mdc:
     build: .
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports:
+      - "8080:8080"
