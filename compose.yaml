@@ -1,0 +1,3 @@
+services:
+  asys-technical-mdc:
+    build: .
