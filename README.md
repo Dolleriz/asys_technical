@@ -2,16 +2,31 @@
 
 ## Prerequisits
 
+### Using Docker to build/run
+
 - **(Only for Windows)** Install WSL command. Open PowerShell or Windows Command Prompt in administrator mode, enter `wsl --install command`, then restart your machine.
 - Download Docker desktop for your operating system:
   [Docker desktop download](https://www.docker.com/products/docker-desktop/)
 - Download and install Java JDK 21, and set JAVA_HOME env variable
 - Download and install Maven
 
+### Using native Java/Maven
+
+- Download and install Java JDK 21, and set JAVA_HOME env variable
+- Download and install Maven
+
 ## Build/Run
 
-- navigate to `\asys_technical`
+### using Docker
+
+- navigate to `\asys_technical-main`
 - `mvn clean install spring-boot:run`
+
+### Using native Java/Maven
+
+- navigate to `\asys_technical-main`
+- `mvn clean package`
+- `java -jar target\asys_technical-0.0.1-SNAPSHOT.jar`
 
 ## Using the application with postman
 
