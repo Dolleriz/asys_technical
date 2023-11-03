@@ -19,12 +19,12 @@
 
 ### using Docker
 
-- navigate to `\asys_technical-main`
+- open a terminal in the root folder
 - `mvn clean install spring-boot:run`
 
 ### Using native Java/Maven
 
-- navigate to `\asys_technical-main`
+- open a terminal in the root folder
 - `mvn clean package`
 - `java -jar target\asys_technical-0.0.1-SNAPSHOT.jar`
 
